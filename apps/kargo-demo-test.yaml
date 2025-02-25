@@ -8,7 +8,7 @@ metadata:
 spec:
   project: default
   source:
-    repoURL: https://github.com/pratik3686/kargo-demo-new
+    repoURL: https://github.com/israfilalam22/kargo-demo-new.git
     targetRevision: stage/test
     path: stages/test
   destination:

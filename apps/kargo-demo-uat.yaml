@@ -8,11 +8,11 @@ metadata:
 spec:
   project: default
   source:
-    repoURL: https://github.com/pratik3686/kargo-demo-new
+    repoURL: https://github.com/israfilalam22/kargo-demo-new.git
     targetRevision: stage/uat
     path: stages/uat
   destination:
-    server: https://host.docker.internal:61922
+    server: https://35.239.223.215:36339
     namespace: kargo-demo-uat
   syncPolicy:
     automated: # automated sync by default retries failed attempts 5 times with following delays between attempts ( 5s, 10s, 20s, 40s, 80s ); retry controlled using `retry` field.
