@@ -12,7 +12,7 @@ spec:
     targetRevision: stage/uat
     path: stages/uat
   destination:
-    server: https://35.239.223.215:36339
+    server: https://34.45.21.244:39513
     namespace: kargo-demo-uat
   syncPolicy:
     automated: # automated sync by default retries failed attempts 5 times with following delays between attempts ( 5s, 10s, 20s, 40s, 80s ); retry controlled using `retry` field.
